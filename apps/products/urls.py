@@ -6,3 +6,5 @@ router = DefaultRouter()
 router.register('users', UserAPI, 'api_user')
 
 urlpatterns = router.urls 
+
+
